@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 376px) {
+    body {
+        background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg) no-repeat;
+        background-size: 110% 50%;
+    }
+
+    section {
+        width: 370px;
+    }
+
+    div#anual > a {
+        transform: translate(180%);
+    }
+}
